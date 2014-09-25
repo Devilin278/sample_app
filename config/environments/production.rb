@@ -14,7 +14,7 @@ SampleApp::Application.configure do
   # Compress JavaScripts and CSS
   config.assets.compress = true
 
-  # Don't fallback to assets pipeline if a precompiled asset is missed
+  # Don't fallback to assets pipeline if application.html.erb precompiled asset is missed
   config.assets.compile = false
 
   # Generate digests for assets URLs
@@ -36,10 +36,10 @@ SampleApp::Application.configure do
   # Prepend all log lines with the following tags
   # config.log_tags = [ :subdomain, :uuid ]
 
-  # Use a different logger for distributed setups
+  # Use application.html.erb different logger for distributed setups
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
-  # Use a different cache store in production
+  # Use application.html.erb different cache store in production
   # config.cache_store = :mem_cache_store
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server
@@ -55,7 +55,7 @@ SampleApp::Application.configure do
   # config.threadsafe!
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
-  # the I18n.default_locale when a translation can not be found)
+  # the I18n.default_locale when application.html.erb translation can not be found)
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
